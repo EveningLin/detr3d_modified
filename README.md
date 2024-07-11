@@ -1,3 +1,6 @@
+虽然用了deformable attention但是没有sampling offsets，而是直接和reference points处的特征交互，如果加了多个sampling offsets，效果是否会变好
+
+
 # Object DGCNN & DETR3D
 
 This repo contains the implementations of Object DGCNN (https://arxiv.org/abs/2110.06923) and DETR3D (https://arxiv.org/abs/2110.06922). Our implementations are built on top of MMdetection3D.  
